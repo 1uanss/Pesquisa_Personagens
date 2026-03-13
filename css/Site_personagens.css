@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-image: url(../img/halloween.jpg);
+    background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(../img/halloween.jpg);
+    min-height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 2rem;
+
+}
+
+.button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.main{
+    background-color: rgb(0, 0, 0);
+    min-height: 40vh;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem;
+}
+
+.pesquisar{
+    padding: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.pesquisar input{
+    padding: 0.5rem;
+    border-radius: 5px;
+    /* border: none; */
+    margin-right: 0.5rem;
+    border: 1px solid black;
+}
+
